@@ -1,3 +1,4 @@
+/* Main game styles */
 body {
     background-color: dodgerblue;
     margin: 0;
@@ -35,6 +36,7 @@ body {
     font-size: 2em;
     border-radius: 10px; /* Add border-radius to make the border curved */
 }
+
 footer {
     text-align: center;
     font-size: large;
@@ -46,4 +48,41 @@ footer {
     color: red; 
     font-size: 2em; 
 }
+
+/* Result display styles */
+.result-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.result-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.result-message {
+    font-size: 3em;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white background */
+    border-radius: 10px;
+}
+.play-again-button {
+    background-color: #FAB201; /* Button background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius */
+    cursor: pointer; /* Show pointer cursor on hover */
+    font-size: 1em; /* Button text size */
+    margin-top: 20px; /* Margin from the top */
+}
+
+.play-again-button:hover {
+    background-color: #FFD54F; /* Change background color on hover */
+}
+
 
